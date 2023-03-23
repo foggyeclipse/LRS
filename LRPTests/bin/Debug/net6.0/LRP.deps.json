@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LRP/1.0.0": {
+        "dependencies": {
+          "FiniteFields": "1.0.0"
+        },
+        "runtime": {
+          "LRP.dll": {}
+        }
+      },
+      "FiniteFields/1.0.0": {
+        "runtime": {
+          "FiniteFields.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LRP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FiniteFields/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

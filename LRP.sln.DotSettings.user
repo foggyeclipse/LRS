@@ -1,0 +1,69 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=098a73f6_002D5453_002D4f29_002Db899_002Df0a43b714495/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RandomNumberGenerator5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;ProjectFile&gt;AE5255A8-67DC-43E4-A354-59EDEA64E532/f:UnitTest1.cs&lt;/ProjectFile&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=410daacc_002Df84e_002D4e77_002Dba1a_002D36f7da9d99d8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="RandomNumberGenerator3 #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;ProjectFile&gt;AE5255A8-67DC-43E4-A354-59EDEA64E532/f:UnitTest1.cs&lt;/ProjectFile&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4cb51b7b_002Ddb01_002D4cfd_002D9651_002D92c94229d732/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RandomNumberGenerator2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::AE5255A8-67DC-43E4-A354-59EDEA64E532::net6.0::LRP.Tests.RandomNumberGenerator2&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=67537c32_002De0f5_002D47db_002D8568_002Db6d086d758d3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RandomNumberGenerator3 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::AE5255A8-67DC-43E4-A354-59EDEA64E532::net6.0::LRP.Tests.RandomNumberGenerator3&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7b0827b2_002Dbe6f_002D49d9_002D81a1_002Dee5b6b358942/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Generate1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::AE5255A8-67DC-43E4-A354-59EDEA64E532::net6.0::LRPTests.Tests.Generate1&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=81f63918_002D2132_002D44e9_002Db620_002Dc299bb6e3b39/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RandomNumberGenerator3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::AE5255A8-67DC-43E4-A354-59EDEA64E532::net6.0::LRP.Tests.RandomNumberGenerator3&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=828ff3a4_002D5d3d_002D4718_002D9407_002D98dd25c2e0e3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RandomNumberGenerator1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::AE5255A8-67DC-43E4-A354-59EDEA64E532::net6.0::LRP.Tests.RandomNumberGenerator1&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8aa6d980_002Df544_002D42c0_002D90d9_002Dc760b99dc6d2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RandomNumberGenerator5 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::AE5255A8-67DC-43E4-A354-59EDEA64E532::net6.0::LRP.Tests.RandomNumberGenerator5&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=979824eb_002Df824_002D45f5_002D850a_002D7d8cc4716cf6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Generate1 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::AE5255A8-67DC-43E4-A354-59EDEA64E532::net6.0::LRP.Tests.Generate1&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9e90bda2_002D8762_002D432a_002D8f5b_002D7b374a15970a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Generate1 #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;ProjectFile&gt;AE5255A8-67DC-43E4-A354-59EDEA64E532/f:UnitTest1.cs&lt;/ProjectFile&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b0e93e0f_002D5d22_002D416f_002Da4d9_002D67a4dda3b288/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RandomNumberGenerator5 #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::AE5255A8-67DC-43E4-A354-59EDEA64E532::net6.0::LRP.Tests.RandomNumberGenerator5&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cfef3401_002D55d7_002D42c6_002D9e55_002Da9ebeba595d1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RandomNumberGenerator5 #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::AE5255A8-67DC-43E4-A354-59EDEA64E532::net6.0::LRP.Tests.RandomNumberGenerator5&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d3c8e579_002Da8b4_002D4e75_002Dbe20_002D9ece28e5ef8b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Generate1 #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::AE5255A8-67DC-43E4-A354-59EDEA64E532::net6.0::LRP.Tests.RandomNumberGenerator2&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f9e8e67e_002Dbe75_002D4fdd_002Db655_002D2c49a8d46533/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RandomNumberGenerator4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::AE5255A8-67DC-43E4-A354-59EDEA64E532::net6.0::LRP.Tests.RandomNumberGenerator4&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>

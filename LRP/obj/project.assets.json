@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "FiniteFields/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FiniteFields.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FiniteFields.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FiniteFields/1.0.0": {
+      "type": "project",
+      "path": "../../FiniteFields/FiniteFields/FiniteFields.csproj",
+      "msbuildProject": "../../FiniteFields/FiniteFields/FiniteFields.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "FiniteFields >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/macbook/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/macbook/RiderProjects/LRP/LRP/LRP.csproj",
+      "projectName": "LRP",
+      "projectPath": "/Users/macbook/RiderProjects/LRP/LRP/LRP.csproj",
+      "packagesPath": "/Users/macbook/.nuget/packages/",
+      "outputPath": "/Users/macbook/RiderProjects/LRP/LRP/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/macbook/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/macbook/RiderProjects/FiniteFields/FiniteFields/FiniteFields.csproj": {
+              "projectPath": "/Users/macbook/RiderProjects/FiniteFields/FiniteFields/FiniteFields.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
