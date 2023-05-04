@@ -8,7 +8,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\FiniteFields\FiniteFields\FiniteFields.csproj" />
+      <ProjectReference Include="..\FiniteFields\FiniteFields\FiniteFields.csproj" />
     </ItemGroup>
+
+
 
 </Project>
