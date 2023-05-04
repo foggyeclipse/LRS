@@ -8,7 +8,7 @@ public class Lrp
     private FiniteFieldElement[] SetCoefficients { get; } 
     private FiniteFieldElement C { get; }
         
-    public Lrp(List<byte[]?> freeMember, List<byte[]?> setCoefficients, byte[]? c)
+    public Lrp(List<byte> freeMember, List<byte> setCoefficients, byte c)
     {
         if (freeMember.Count != setCoefficients.Count)
             throw new Exception("Exception");
@@ -21,7 +21,7 @@ public class Lrp
         C = field.GetFiniteFieldRepresent(c);
     }
 
-    public byte[] Random()
+    public byte Random()
     {
         var n = FreeMember.Count - SetCoefficients.Length;
         var x_nk = field.GetZero();

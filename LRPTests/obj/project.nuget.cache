@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uA74iQAEhqeYUMK/7BkB7T0I91p/j7iKNXs2F/bpoFPRHHXIWmlNMtJxiSThUirtfTYW1QA8oHzlJ3Z/JhuAHQ==",
+  "dgSpecHash": "rDI0Mh9/Itn8yvEravES5XRJfkSLQtofP2nhb9fdewO4Vw2soBbh+whMDFkx6VQ3vfN3QKsvtJOKIerQOuhQvA==",
   "success": true,
   "projectFilePath": "/Users/macbook/RiderProjects/LRP/LRPTests/LRPTests.csproj",
   "expectedPackageFiles": [
@@ -49,7 +49,9 @@
     "/Users/macbook/.nuget/packages/system.threading.tasks/4.0.11/system.threading.tasks.4.0.11.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.threading.tasks.extensions/4.0.0/system.threading.tasks.extensions.4.0.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.xml.readerwriter/4.0.11/system.xml.readerwriter.4.0.11.nupkg.sha512",
-    "/Users/macbook/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512"
+    "/Users/macbook/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.netcore.app.ref/6.0.16/microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.16/microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }

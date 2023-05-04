@@ -9,60 +9,60 @@ public class Tests
     [Test]
     public void RandomNumberGenerator1()
     {
-        var freeMember = new List<byte[]?> { new byte[] { 1, 0, 0, 0 }, new byte[] { 2, 0, 0, 0 } };
-        var setCoefficients = new List<byte[]?> { new byte[]{ 1, 0, 0, 0 }, new byte[] { 3, 0, 0, 0 } };
-        var c = new byte[] { 0, 0, 0, 0 };
+        var freeMember = new List<byte> { 1, 2 };
+        var setCoefficients = new List<byte> { 1, 3 };
+        var c = (byte) 0;
         var generator = new Lrp(freeMember, setCoefficients, c);
-        var waiting = new List<byte[]> { new byte[] { 7, 0, 0, 0 }, new byte[] { 11, 0, 0, 0 }, new byte[] { 26, 0, 0, 0 }, new byte[] { 37, 0, 0, 0 } };
-        var result = new List<byte[]> { generator.Random(), generator.Random(), generator.Random(), generator.Random() };
+        var waiting = new List<byte> { 7, 11, 26, 37 };
+        var result = new List<byte> { generator.Random(), generator.Random(), generator.Random(), generator.Random() };
         Assert.That(result, Is.EqualTo(waiting));
     }
     
     [Test]
     public void RandomNumberGenerator2()
     {
-        var freeMember = new List<byte[]?> { new byte[] { 2, 0, 0, 0 }, new byte[] { 4, 0, 0, 0 } };
-        var setCoefficients = new List<byte[]?> { new byte[]{ 1, 0, 0, 0 }, new byte[] { 5, 0, 0, 0 } };
-        var c = new byte[] { 3, 0, 0, 0 };
+        var freeMember = new List<byte> { 2, 4 };
+        var setCoefficients = new List<byte> { 1, 5 };
+        var c = (byte) 3;
         var generator = new Lrp(freeMember, setCoefficients, c);
-        var waiting = new List<byte[]> { new byte[] { 21, 0, 0, 0 }, new byte[] { 70, 0, 0, 0 }, new byte[] { 85, 0, 0, 0 }, new byte[] { 89, 0, 0, 0 } };
-        var result = new List<byte[]> { generator.Random(), generator.Random(), generator.Random(), generator.Random() };
+        var waiting = new List<byte> { 21, 70, 85, 89 };
+        var result = new List<byte> { generator.Random(), generator.Random(), generator.Random(), generator.Random() };
         Assert.That(result, Is.EqualTo(waiting));
     }
     
     [Test]
     public void RandomNumberGenerator3()
     {
-        var freeMember = new List<byte[]?> { new byte[] { 1, 0, 0, 0 }, new byte[] { 3, 0, 0, 0 } };
-        var setCoefficients = new List<byte[]?> { new byte[]{ 7, 0, 0, 0 }, new byte[] { 1, 0, 0, 0 } };
-        var c = new byte[] { 4, 0, 0, 0 };
+        var freeMember = new List<byte> { 1, 3 };
+        var setCoefficients = new List<byte> { 7, 1 };
+        var c = (byte) 4;
         var generator = new Lrp(freeMember, setCoefficients, c);
-        var waiting = new List<byte[]> { new byte[] { 0, 0, 0, 0 }, new byte[] { 13, 0, 0, 0 }, new byte[] { 9, 0, 0, 0 }, new byte[] { 46, 0, 0, 0 } };
-        var result = new List<byte[]> { generator.Random(), generator.Random(), generator.Random(), generator.Random() };
+        var waiting = new List<byte> { 0, 13, 9, 46 };
+        var result = new List<byte> { generator.Random(), generator.Random(), generator.Random(), generator.Random() };
         Assert.That(result, Is.EqualTo(waiting));
     }
     
     [Test]
     public void RandomNumberGenerator4()
     {
-        var freeMember = new List<byte[]?> { new byte[] { 1, 0, 0, 0 }, new byte[] { 1, 0, 0, 0 } };
-        var setCoefficients = new List<byte[]?> { new byte[]{ 1, 0, 0, 0 }, new byte[] { 1, 0, 0, 0 } };
-        var c = new byte[] { 7, 0, 0, 0 };
+        var freeMember = new List<byte> { 1, 1 };
+        var setCoefficients = new List<byte> { 1, 1 };
+        var c = (byte) 7;
         var generator = new Lrp(freeMember, setCoefficients, c);
-        var waiting = new List<byte[]> { new byte[] { 7, 0, 0, 0 }, new byte[] { 1, 0, 0, 0 }, new byte[] { 1, 0, 0, 0 }, new byte[] { 7, 0, 0, 0 } };
-        var result = new List<byte[]> { generator.Random(), generator.Random(), generator.Random(), generator.Random() };
+        var waiting = new List<byte> { 7, 1, 1, 7 };
+        var result = new List<byte> { generator.Random(), generator.Random(), generator.Random(), generator.Random() };
         Assert.That(result, Is.EqualTo(waiting));
     }
     
     [Test]
     public void RandomNumberGenerator5()
     {
-        var freeMember = new List<byte[]?> { new byte[] { 1, 0, 0, 0 }, new byte[] { 3, 0, 0, 0 } };
-        var setCoefficients = new List<byte[]?> { new byte[]{ 0, 0, 0, 0 }, new byte[] { 0, 0, 0, 0 } };
-        var c = new byte[] { 4, 0, 0, 0 };
+        var freeMember = new List<byte> { 1, 3 };
+        var setCoefficients = new List<byte> { 0, 0 };
+        var c = (byte) 4;
         var generator = new Lrp(freeMember, setCoefficients, c);
-        var waiting = new List<byte[]> { new byte[] { 4, 0, 0, 0 }, new byte[] { 4, 0, 0, 0 }, new byte[] { 4, 0, 0, 0 }, new byte[] { 4, 0, 0, 0 } };
-        var result = new List<byte[]> { generator.Random(), generator.Random(), generator.Random(), generator.Random() };
+        var waiting = new List<byte> { 4, 4, 4, 4};
+        var result = new List<byte> { generator.Random(), generator.Random(), generator.Random(), generator.Random() };
         Assert.That(result, Is.EqualTo(waiting));
     }
 }
