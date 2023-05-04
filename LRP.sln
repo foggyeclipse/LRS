@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LRP", "LRP\LRP.csproj", "{C18B273C-8E11-4419-88DE-05484A7F91AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiniteFields", "..\FiniteFields\FiniteFields\FiniteFields.csproj", "{94F3FE4A-9F22-4FB8-96F1-7DC6B9B3B895}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiniteFields", "FiniteFields\FiniteFields\FiniteFields.csproj", "{94F3FE4A-9F22-4FB8-96F1-7DC6B9B3B895}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LRPTests", "LRPTests\LRPTests.csproj", "{AE5255A8-67DC-43E4-A354-59EDEA64E532}"
 EndProject
