@@ -51,17 +51,13 @@
     &lt;TestId&gt;NUnit3x::AE5255A8-67DC-43E4-A354-59EDEA64E532::net6.0::LRP.Tests.RandomNumberGenerator5&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cfef3401_002D55d7_002D42c6_002D9e55_002Da9ebeba595d1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RandomNumberGenerator5 #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cfef3401_002D55d7_002D42c6_002D9e55_002Da9ebeba595d1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="RandomNumberGenerator5 #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::AE5255A8-67DC-43E4-A354-59EDEA64E532::net6.0::LRP.Tests.RandomNumberGenerator5&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d3c8e579_002Da8b4_002D4e75_002Dbe20_002D9ece28e5ef8b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Generate1 #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::AE5255A8-67DC-43E4-A354-59EDEA64E532::net6.0::LRP.Tests.RandomNumberGenerator2&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f9e8e67e_002Dbe75_002D4fdd_002Db655_002D2c49a8d46533/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="RandomNumberGenerator4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f9e8e67e_002Dbe75_002D4fdd_002Db655_002D2c49a8d46533/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RandomNumberGenerator4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;Project Location="/Users/macbook/RiderProjects/LRP/LRPTests" Presentation="&amp;lt;LRPTests&amp;gt;" /&gt;
 &lt;/SessionState&gt;</s:String>
 	</wpf:ResourceDictionary>
