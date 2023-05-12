@@ -1,21 +1,21 @@
 using FiniteFields;
 namespace LRP;
 
-public class Lrp
+public class LRS
 {
     private FiniteField field = new FiniteField(2, 8, new int[] { 1, 0, 1, 1, 1, 0, 0, 0, 1 });
-    private List<FiniteFieldElement> FreeMember = new ();
+    private List<FiniteFieldElement> Seed = new ();
     private FiniteFieldElement[] SetCoefficients { get; } 
     private FiniteFieldElement C { get; }
         
-    public Lrp(List<byte> freeMember, List<byte> setCoefficients, byte c)
+    public LRS(List<byte> seed, List<byte> setCoefficients, byte c)
     {
-        if (freeMember.Count != setCoefficients.Count)
+        if (seed.Count != setCoefficients.Count)
             throw new Exception("Exception");
         SetCoefficients = new FiniteFieldElement[setCoefficients.Count];
         for (var i = 0; i < setCoefficients.Count; i++)
         {
-            FreeMember.Add(field.GetFiniteFieldRepresent(freeMember[i]));
+            Seed.Add(field.GetFiniteFieldRepresent(seed[i]));
             SetCoefficients[i] = field.GetFiniteFieldRepresent(setCoefficients[i]);
         }
         C = field.GetFiniteFieldRepresent(c);
@@ -23,14 +23,14 @@ public class Lrp
 
     public byte Random()
     {
-        var n = FreeMember.Count - SetCoefficients.Length;
         var x_nk = field.GetZero();
         for (var i = 0; i < SetCoefficients.Length; i++)
         {
-            x_nk += SetCoefficients[i] * FreeMember[i+n];
+            x_nk += SetCoefficients[i] * Seed[i];
         }
         x_nk += C;
-        FreeMember.Add(x_nk);
+        Seed.Add(x_nk);
+        Seed.RemoveAt(0);
         return field.GetBinaryRepresent(x_nk);
     }
 }

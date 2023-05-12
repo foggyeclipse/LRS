@@ -5,6 +5,8 @@
         <Nullable>enable</Nullable>
 
         <IsPackable>false</IsPackable>
+
+        <RootNamespace>LRPTests</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -15,7 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\LRP\LRP.csproj" />
+      <ProjectReference Include="..\LRS\LRS.csproj" />
     </ItemGroup>
 
 </Project>
